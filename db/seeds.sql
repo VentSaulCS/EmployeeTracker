@@ -1,6 +1,6 @@
 USE EMPLOYEETRACKER;
 insert into DEPARTMENT(name)values
-(name) values('Marketing'),('Sales')('Management'),('IT');
+('Marketing'),('Sales'),('Management'),('IT');
 
 insert into roles(title,salary,department_id)values
 ('Manager-Marketing',23243,1),
@@ -21,4 +21,4 @@ insert into Employees(first_name,LAST_NAME,ROLE_ID,MANAGER_ID) values
 ('Saasdul','Vezxntura',5,1),
 ('Sauxcl','Venturcca',6,2),
 ('Sasdaul','Vexzntura',7,3),
-('Saucxl','Venturxczca',8,4),
+('Saucxl','Venturxczca',8,4);
