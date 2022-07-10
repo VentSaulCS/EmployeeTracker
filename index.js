@@ -26,7 +26,7 @@ const db = mysql.createConnection(
         {
             type:"list",
             message:"What would you like to do?",
-            choices:["View Departments","View Employees", "View Roles", "Add Department", "Add Employess", "Exit App"],
+            choices:["View Departments","View Employees", "View Roles", "Add Department", "Add Employees", "Exit App"],
             name:"option"
         }
     ]).then(function(response){
@@ -43,7 +43,7 @@ const db = mysql.createConnection(
                 break;
             case "Add Department":
                 adddepartment()
-                break        
+                break;       
             case "Add Employees":
                 addemployees()
                 break;
