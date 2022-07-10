@@ -85,7 +85,19 @@ function viewemployees() {
 
 
 function adddepartment() {
-
+  const sql = `INSERT INTO employees (first_name, lastname, role_id, manager_id)
+  VALUES (?, ?, ?, ?)`;
+  const params = [answers.firstName, answers.lastName, answers.roleId, answers.managerId];
+  db.query(sql, params, (err, result) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
+    res.json({
+      message: 'success',
+      data: body
+    });
+  });
 }
 
 function addemployees() {
