@@ -101,6 +101,32 @@ function adddepartment() {
 }
 
 function addemployees() {
+  inquirer
+  .prompt([
+    {
+      name: 'first_name',
+      message: 'Enter First Name',
+      default: 'test this '
+    },
+    {
+      name: 'LAST_NAME',
+      message: 'Enter Last Name',
+      default: 'test this 2'
+    },
+    {
+      name: 'ROLE_ID',
+      message: 'Enter Role Id',
+      default: 'test this 3'
+    },
+    {
+      name: 'MANAGER_ID',
+      message: 'Enter Manager Id',
+      default: 'test this 4'
+    },
+  ])
+  .then(answers => {
+    console.info('Answers:', answers);
+  });
 
 }
 
