@@ -144,6 +144,8 @@ You are required to submit BOTH of the following for review:
 
 A walkthrough video demonstrating the functionality of the application.
 
-https://github.com/VentSaulCS Saul Ventura
+Here is walkthrough of Management System https://drive.google.com/file/d/1g0D1XPkheTagfX4MfzYjnMCBhqEo64c1/view
+
+https://github.com/VentSaulCS 
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
